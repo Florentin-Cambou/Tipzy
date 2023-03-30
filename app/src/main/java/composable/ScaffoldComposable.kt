@@ -1,6 +1,5 @@
 package composable
 
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 

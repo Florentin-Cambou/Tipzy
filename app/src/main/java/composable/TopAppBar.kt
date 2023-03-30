@@ -7,7 +7,8 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.material.TopAppBar
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.res.stringResource
+import com.wiapp.tipzy.R
 
 @Composable
 fun TopAppBar(){
@@ -16,7 +17,7 @@ fun TopAppBar(){
             horizontalArrangement = Arrangement.Center,
             modifier = Modifier.fillMaxWidth()
         ) {
-            Text(text = "Tipzy Calculate Tip")
+            Text(text = stringResource(id = R.string.app_name_top))
         }
     }
 }

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tipzy</string>
+    <string name="app_name_top">Tipzy Calculate Tip</string>
+    <string name="text_service_amount">Service amount:</string>
+    <string name="text_percent_tip">Write percent tip</string>
+    <string name="round_tip">Round up tip ?</string>
 </resources>
