@@ -5,9 +5,8 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.text.font.FontWeight
 
-@VisibleForTesting
 @Composable
-fun calculateTipAmount(textFieldTip: String,textFieldPercentTip: String,switchIsChecked: Boolean){
+ internal fun CalculateTipAmount(textFieldTip: String,textFieldPercentTip: String,switchIsChecked: Boolean){
     if(textFieldTip == ""|| textFieldPercentTip == "" ){
         Text(
             text = "Tip amount: $ 0",

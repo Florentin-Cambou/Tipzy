@@ -15,7 +15,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.wiapp.tipzy.R
-import funCalculate.calculateTipAmount
+import funCalculate.CalculateTipAmount
 
 @Composable
 fun TipzyHome(paddingValues: PaddingValues){
@@ -60,6 +60,6 @@ fun TipzyHome(paddingValues: PaddingValues){
             Switch(checked = switchIsChecked, onCheckedChange = {switchIsChecked = it})
         }
 
-        calculateTipAmount(textFieldTip = textFieldTip,textFieldPercentTip= textFieldPercentTip,switchIsChecked)
+        CalculateTipAmount(textFieldTip = textFieldTip,textFieldPercentTip= textFieldPercentTip,switchIsChecked)
     }
 }
